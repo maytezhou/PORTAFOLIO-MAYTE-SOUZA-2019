@@ -12,6 +12,7 @@
 *
 * ======================================================= */
 body {
+  overflow-x: hidden;
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
@@ -847,7 +848,9 @@ header {
       opacity: 0;
       -webkit-transition: 0.3s;
       -o-transition: 0.3s;
-      transition: 0.3s; }
+      transition: 0.3s;
+    
+    }
     .article .blog-img .link {
       position: absolute;
       bottom: 0;
@@ -857,7 +860,9 @@ header {
       opacity: 0;
       -webkit-transition: 0.7s;
       -o-transition: 0.7s;
-      transition: 0.7s; }
+      transition: 0.7s; 
+    
+    }
       .article .blog-img .link .read {
         display: table-cell;
         vertical-align: middle;
@@ -988,11 +993,24 @@ header {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
     outline: none !important; }
+    
+.center-btn {   
+  margin: auto; display: block;
+  text-align: center}
+  
+.btn-primary2 {
+  background: #CA82F8;
+  color: #fff;
+  border: 2px solid #CA82F8; 
+  margin: auto; display: block;
+  text-align: center;
+} 
+  
 
 .btn-primary {
   background: #CA82F8;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid #CA82F8; }  
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #d49af9 !important;
     border-color: #d49af9 !important; }
@@ -1003,6 +1021,7 @@ header {
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #CA82F8;
       color: #fff; }
+
 
 .btn-success {
   background: #5cb85c;
